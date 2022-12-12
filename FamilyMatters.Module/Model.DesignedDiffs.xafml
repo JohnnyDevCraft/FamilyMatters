@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="FamilyMatters">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+    <Class Name="FamilyMatters.Module.BusinessObjects.Family">
+      <OwnMembers>
+        <Member Name="MainPhone" DisplayFormat="{0:(000)000-000)}" EditMask="(000)000-0000" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="FamilyManagement" Caption="Family Management" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="FamilyManager" ViewId="FamilyManager_ListView" Caption="Family Manager" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="22.2.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="22.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="FamilyManager_DetailView" CaptionColon=":" EnableCaptionColon="True" CaptionLocation="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" CaptionWordWrap="Default" EnableLayoutGroupImages="True" RequiredFieldMark="*" ClassName="FamilyMatters.Module.BusinessObjects.Family" IsNewNode="True">
+      <Items IsNewNode="True">
+        <PropertyEditor Id="CreatedBy" PropertyName="CreatedBy" IsNewNode="True" />
+        <PropertyEditor Id="FamilyName" PropertyName="FamilyName" IsNewNode="True" />
+        <PropertyEditor Id="MainPhone" PropertyName="MainPhone" IsNewNode="True" />
+        <PropertyEditor Id="Oid" PropertyName="Oid" IsNewNode="True" />
+        <PropertyEditor Id="UserFamilies" PropertyName="UserFamilies" View="Family_UserFamilies_ListView" IsNewNode="True" />
+      </Items>
+      <Layout IsNewNode="True">
+        <LayoutGroup Id="Main" Index="0" ShowCaption="False" IsNewNode="True">
+          <LayoutGroup Id="SimpleEditors" Index="0" ShowCaption="False" IsNewNode="True">
+            <LayoutGroup Id="Family" Index="0" ShowCaption="False" IsNewNode="True">
+              <LayoutItem Id="FamilyName" ViewItem="FamilyName" ShowCaption="" Index="0" IsNewNode="True" />
+              <LayoutItem Id="CreatedBy" ViewItem="CreatedBy" ShowCaption="" Index="1" IsNewNode="True" />
+              <LayoutItem Id="MainPhone" ViewItem="MainPhone" ShowCaption="" Index="2" IsNewNode="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Index="1" ShowCaption="False" IsNewNode="True">
+              <LayoutItem Id="Oid" ViewItem="Oid" ShowCaption="" Index="0" IsNewNode="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="UserFamilies_Group" Index="1" Direction="Horizontal" ShowCaption="True" IsNewNode="True">
+            <LayoutItem Id="UserFamilies" ViewItem="UserFamilies" ShowCaption="" Index="0" IsNewNode="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="FamilyManager_ListView" ClassName="FamilyMatters.Module.BusinessObjects.Family" MasterDetailMode="ListViewAndDetailView" AllowEdit="True" AllowLink="False" AllowUnlink="False" NewItemRowPosition="None" ShowFindPanel="False" MasterDetailView="FamilyManager_DetailView" DetailViewID="FamilyManager_DetailView" ShowAutoFilterRow="True" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="Oid" PropertyName="Oid" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="FamilyName" PropertyName="FamilyName" SortIndex="0" SortOrder="Ascending" Index="0" IsNewNode="True" />
+        <ColumnInfo Id="CreatedBy" PropertyName="CreatedBy" Index="1" IsNewNode="True" />
+        <ColumnInfo Id="MainPhone" PropertyName="MainPhone" Index="2" IsNewNode="True" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

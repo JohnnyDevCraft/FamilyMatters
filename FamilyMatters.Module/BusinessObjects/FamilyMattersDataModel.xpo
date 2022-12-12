@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2b97b254-6d69-4213-98e7-7a2cb78f769f" namespace="FamilyMatters.Module.BusinessObjects" dataBaseShemaInfo="H4sIAAAAAAAEANVY224bOQx9L9B/MPJc2bpfCsdF47RF0VvQy2JfKYlKBmuPg5lxkv79cuwkbZJ214t6bfTFsCgKwyOSh6TGz67ms8EFNm21qA8PxJAfPJs8fjQ+ghY/dYsGTvF1XRYD0qrbp1dtPjw467rzp6PR5eXl8FINF83pSHIuRn++e/spneEcDm6Vq39XZlXddlAnPKCvDgbjzxBn2PafXK1vJN8JbkTvYY6TLy0249G39a3Ki7qXTbpmiePR9eJ287hqe8GX8wwdTgrMWlK6K7zVfbWs8us8wQipxFKYyNwxLYpn3qJjKgVlsZSQQI1H18q3h6eL2XJet3es/6mYNnoM683Jy6ppu349Hn0nvaP9Txj/K87vseqM3kk0jCvJmbaGsMosmXIpeCNTAnyIlY6PfgHuW9gXWgBIxlvFfHKeaS/oX+Sece4SWp+R57BttMdkzIdyVDXd2e4B86RK0QZZSCUwHSAxwFCYscF45Uo0GLcNeLpsGqy7lzCvZl93D9kUSDopyzRawTQXlnnwQN420gSTwIu0MeQfSa85aGPeurmIHTCXRQhZCcG81uTuoiJhl4UhVyi1L6mg2y5zrbDtJ5lD4oJ8STStpWFaS2C+kKO9ldkRTys0uPXYbpDMyUd7iGssPEUZI4s5UVWKPLMQsTAFWeaYjBBi60z9Dqr65GxR78G7GYKlcquYiyoxDYk4LBrJZAo6ZBTBGr3TNP64mOFukjgHLbXWDAVoYjHvmFeGWMwLYjbNtbDmf0ji3bs4RWu4Bs+UNMTUxQkWVOIsCqpRkKjnkpsn8PaY+sNlTRkO7W68jTJmK7UkAivItJOWEfTEpNFCCgsY08NL+C29HVCFmA0Tkn6oGicWMHmWePHC88A55p16e0qWni6a3VRmYYtySG72Tvd9tuyTmu4hOR1cSs4J+bDz/BU376cmyyS09SUzaymRtYHIgjCGeVRaxmBijHbbReoE+nZzDwU5RKsjjRBFOApomi0Y1WfJrES0zmbrYOtYj7FNTXXe0QC/hwyWSgMXyChZqTAFTb0WpMScoeaD2kzKcLFtwK/bF1fnWLf76ECcRoyCei0jCv1kx2IowBJE5zn6DAl2Slj9A8gOhwlfaCgmnmYGaKLQ2RoWVTEMspGqoFbaPiTs37EyWZVC8tRlqixWDRcwAMzMATdBUP21/GHD9YtxvX7M2jllieiCdI6BjURZjnOqwc4zW2LwWStp3eaz8YZI133zrpFGbgrFLg0NwC0lb9TMr8YHoTl1nZIuYfOXnk2S93r9TWXcP6liPmkWaSUcjNbiP9bvr0TlF0RtDbbt8Bg6GF5IOZRPBtfbh/1qqIb8yWC6nHXLBg9rXHYNzJ4MTpZxVqU3+PXz4i+sD6P3mSqQzuRO1IE46eYTq+9NZ9C22PYO+Li8vd3x80ymYamuru1aiz4tyx3RR5wvLvC+4lp6X3dKLfPkS53OoD7tW7nVen01P7JhTDdzjk1X7dm2n5gxfoU1NhRe08V8Tv1Fex2jD8R3lKk+V6f092VFoXDvxN291bFjnGGHz9t2kSroi/rNmR9srA68X85mfZgd4RlcVIuGoqgAxQcl2P2dx4/Go3sv+5O/AQGBDjICGAAA" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="22.2.3.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="22.2.3.0" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="0980311f-c2fc-4ca8-b283-01fdfcbf2aca">
+      <externalPersistentType Id="9f44b3af-77df-47e9-a9a8-999b0da77088" name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole" nameSpace="DevExpress.Persistent.BaseImpl.PermissionPolicy" virtualName="PermissionPolicyRole" assemblyName="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.Xpo.v22.2\v4.0_22.2.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.Xpo.v22.2.dll" deferredDeletion="False" optimisticLocking="False" hasDefaultConstructor="false" constructorParameterType="Session" hasSessionSpecifiedConstructor="false">
+        <fields>
+          <generalXpObjectHasFields Id="23f5420e-828b-4748-9549-8f4b5561740e">
+            <externalPersistentTypeField Id="e7dc6993-baff-42fc-a8f6-ffbb74095451" name="oid" virtualColumnType="Guid" key="true" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7217190b-97c4-46e5-a0c0-b1074f9ab116">
+            <externalPersistentTypeField Id="a997335d-4e80-4557-95f3-d773415b19c7" name="Name" virtualColumnType="String" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b9fa2f86-f848-4ba7-8eb2-5922b978b390">
+            <externalPersistentTypeField Id="08c116ab-10ae-4940-8941-f486cc964545" name="IsAdministrative" virtualColumnType="Boolean" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3a0f8b83-b2ba-4e88-adf6-fb423f52ad14">
+            <externalPersistentTypeField Id="f08f99e4-1c04-4918-9a47-58ae2205fd6c" name="CanEditModel" virtualColumnType="Boolean" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="cd26dae9-433a-4b6e-9a26-8fa0de1a6f3b">
+            <externalPersistentTypeField Id="ea08c04b-4440-4d6f-a3a7-290d0c714c67" name="PermissionPolicy" virtualColumnType="SecurityPermissionPolicy" />
+          </generalXpObjectHasFields>
+        </fields>
+      </externalPersistentType>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="7425531f-88c7-4829-a6ce-bec69a8ce9c7">
+      <externalPersistentType Id="993176e2-3516-40ef-a61d-13c6c3a21808" name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" nameSpace="DevExpress.Persistent.BaseImpl.PermissionPolicy" virtualName="PermissionPolicyUser" assemblyName="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.Xpo.v22.2\v4.0_22.2.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.Xpo.v22.2.dll" deferredDeletion="False" optimisticLocking="False" hasDefaultConstructor="false" constructorParameterType="Session" hasSessionSpecifiedConstructor="false">
+        <fields>
+          <generalXpObjectHasFields Id="7ca544af-48cc-49b7-8fb8-f6c21f329502">
+            <externalPersistentTypeField Id="c8e65639-c29b-463a-9c37-40ae0a3880e9" name="oid" virtualColumnType="Guid" key="true" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3ce26770-6b0e-40ca-a45a-edb7860d6138">
+            <externalPersistentTypeField Id="05576e46-68e5-49db-87a0-8bbed9a60b19" name="StoredPassword" virtualColumnType="String" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="beb25d00-ed5e-439f-a42b-e327581504cd">
+            <externalPersistentTypeField Id="0609f32f-2154-4544-820d-76e5336e27dd" name="ChangePasswordOnFirstLogon" virtualColumnType="Boolean" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="95a92e9a-a7ac-4bb3-9017-11bf6c7150cb">
+            <externalPersistentTypeField Id="ac74b752-9fe9-477c-80a3-11de2c3bb233" name="UserName" virtualColumnType="String" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3d376a9c-7ce5-4091-ae32-3dd0ea6cf7cb">
+            <externalPersistentTypeField Id="6901d0d3-50d2-43d2-b196-9201ef1ff172" name="IsActive" virtualColumnType="Boolean" />
+          </generalXpObjectHasFields>
+        </fields>
+      </externalPersistentType>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="d2461e92-7b22-443e-907b-6f6cc2c7af0c">
+      <xpObject Id="ebacfbff-1d07-41f8-86e7-3c936eff9ca3" name="User" baseClass="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" userFileName="User" designerFileName="User.Designer" className="User" virtualBaseClass="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" virtualName="User">
+        <fields>
+          <generalXpObjectHasFields Id="935687a3-efde-4951-abcf-4ee2c8467c30">
+            <field Id="4de872e5-0320-4658-82d2-37c9852ccae3" name="FirstName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c47360bb-e058-4b89-99d3-a0fa6eecafdd">
+            <field Id="aaac5863-8c78-4813-8b08-007ce68de0d9" name="LastName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9a332cb7-a392-4044-9db1-7ecd27586548">
+            <field Id="0c3ff45e-9cf9-49ac-ae9f-5695837fb5eb" name="DateOfBirth" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="cd9ad118-3658-46bc-8e9a-d8d130320eb1">
+            <field Id="5fac4c36-4e61-4016-8a8a-4852595ca81c" name="CurrentFamily" virtualColumnType="Family" logicalType="Family" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="15a52570-dab2-46ab-ab4c-000ef46c88c5">
+            <persistentAlias Id="14d67503-0bcc-4a18-8523-103175e205d0" name="FullName" virtualColumnType="String" expression="Concat([FirstName], ' ', [LastName])" />
+          </generalXpObjectHasFields>
+        </fields>
+        <superClass>
+          <inheritance Id="d588cbb9-bd16-416f-8288-f772b699701d">
+            <externalPersistentTypeMoniker Id="993176e2-3516-40ef-a61d-13c6c3a21808" />
+          </inheritance>
+        </superClass>
+        <saTargets>
+          <simpleAssociation Id="bfa4ae20-ddcb-425d-8884-bc462ab61614" sourceCollectionName="UserFamilies" name="UserFamilyReferencesUser" targetFieldName="User">
+            <xpObjectMoniker Id="8f7ce485-5a11-4d65-b3f5-ad523fe4346d" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="e39ea10a-97cf-4568-9074-b96c651166c9">
+            <collectionField Id="167c9057-8724-4054-81a9-5826dcf23d25" name="UserFamilies" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="f2d83a34-6ea6-44c5-af6a-abb7af069f8c">
+      <xpObject Id="6ea9d311-8449-4f3b-8a2f-e03e248fcfe7" name="Family" baseClass="XPObject" userFileName="Family" designerFileName="Family.Designer" className="Family" virtualName="Family">
+        <fields>
+          <generalXpObjectHasFields Id="2687cc1b-db76-40a8-813c-c4f09381a02e">
+            <field Id="9c0181cf-1425-442a-8f8a-862d76ef3e5e" name="FamilyName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a0a6847b-a83f-47af-889f-4419815eb395">
+            <field Id="ef0cb2bb-bdc7-4b0d-9bef-3ad2dbc51113" name="CreatedBy" columnType="UInt64" virtualColumnType="User" logicalType="User" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1f99855b-634a-460c-a35e-591ebf994b39">
+            <field Id="da969363-7b3c-4ace-9b52-2c949de19654" name="MainPhone" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="3ca9061f-93ff-44c4-a9df-cce61a9f0784" sourceCollectionName="UserFamilies" name="UserFamilyReferencesFamily" targetFieldName="Family">
+            <xpObjectMoniker Id="8f7ce485-5a11-4d65-b3f5-ad523fe4346d" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="78ef6edf-53be-457e-8de5-c43bf082e410">
+            <collectionField Id="7f2a50f4-2f8f-4242-8071-01ee538e50f7" name="UserFamilies" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="c18c70ff-0220-41ba-b8aa-5314d4db32b8">
+      <xpObject Id="6d942444-e1a4-4e87-8356-881ac4404165" name="Role" baseClass="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole" userFileName="Role" designerFileName="Role.Designer" className="Role" virtualBaseClass="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole" virtualName="Role">
+        <fields>
+          <generalXpObjectHasFields Id="c0637d44-b367-4ee8-a681-3163290bfb18">
+            <field Id="cb6504a8-3251-4f71-93c0-b1ae9ac86e2e" name="Family" virtualColumnType="Family" logicalType="Family" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <superClass>
+          <inheritance Id="e666ea8f-66f6-418a-8d8f-058f9522148b">
+            <externalPersistentTypeMoniker Id="9f44b3af-77df-47e9-a9a8-999b0da77088" />
+          </inheritance>
+        </superClass>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="a8e9d2b1-7cd6-44c4-8fbd-0b7ed1227368">
+      <xpObject Id="e2bd6242-44fe-4726-ac8c-2541216aebce" name="FamilyOwnedBase" baseClass="XPObject" userFileName="FamilyOwnedBase" designerFileName="FamilyOwnedBase.Designer" className="FamilyOwnedBase" nonPersistent="true" virtualName="FamilyOwnedBase">
+        <fields>
+          <generalXpObjectHasFields Id="fcc3452f-c5b5-4757-ad90-259ce594137b">
+            <field Id="c9e39bd5-12d5-485c-9ec8-c0f8180900ed" name="Family" virtualColumnType="Family" logicalType="Family" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="15d4f2e4-7357-46bc-9740-c838817d1e3c">
+      <xpObject Id="16f37e42-8740-4627-83d5-c7497cc77129" name="Category" baseClass="FamilyOwnedBase" userFileName="Category" designerFileName="Category.Designer" className="Category" virtualBaseClass="FamilyOwnedBase" virtualName="Category">
+        <fields>
+          <generalXpObjectHasFields Id="7b3d7949-7789-4aac-b421-d4ff9035f1c0">
+            <field Id="2c1468fd-66c0-45ab-9155-8e342b95bbb6" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9ef4c8c3-94aa-44bc-bab3-0138fbc97cef">
+            <field Id="e9b64b13-f175-4aaa-b2b2-62ee676d67a6" name="Parent" virtualColumnType="Category" logicalType="Category" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b2be0702-c958-46ea-8094-7be7a45f980a">
+            <field Id="c234a01e-0904-494a-8acc-75511a2fc9e1" name="Description" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="31ec0e58-e40b-46fd-b7b1-620d1db11bba">
+            <field Id="d74eeb17-451f-45d7-b9fa-cab780e8daca" name="IsExpense" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b4bb75c2-eaed-454b-a333-c2ab0d5eb74f">
+            <persistentAlias Id="8d3ae8ba-ab6e-4d67-9d13-b89d96cd4edd" name="Title" virtualColumnType="String" expression="IIif([Parent] &lt;&gt; null, Concat([Parent.Name], ' : ', [Name], [Name]))" />
+          </generalXpObjectHasFields>
+        </fields>
+        <superClass>
+          <inheritance Id="41586fdc-8e80-4a70-8c52-e806b0425735">
+            <xpObjectMoniker Id="e2bd6242-44fe-4726-ac8c-2541216aebce" />
+          </inheritance>
+        </superClass>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="de843525-f2bf-4f9b-812e-b18ab4f6e368">
+      <xpObject Id="8f7ce485-5a11-4d65-b3f5-ad523fe4346d" name="UserFamily" baseClass="XPObject" userFileName="UserFamily" designerFileName="UserFamily.Designer" className="UserFamily" virtualName="UserFamily">
+        <fields>
+          <generalXpObjectHasFields Id="662a5f51-7a09-4586-bc11-6a9d0d19b8b5">
+            <field Id="63c9c83c-3d14-4e8a-aaed-7a0591bce605" name="Family" virtualColumnType="Family" logicalType="Family" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="83a30650-e98a-4c1a-9e24-a3f97152405e">
+            <field Id="e1b79277-a6b5-4700-9e78-6fb98d43267c" name="User" columnType="UInt64" virtualColumnType="User" logicalType="User" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="73fcf63d-6836-4fe0-b9c1-40786e9841ef">
+            <field Id="b05f485e-9a06-45b4-8b52-214065022779" name="Role" virtualColumnType="Role" logicalType="Role" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
